@@ -1,19 +1,25 @@
 # **Django**
 
-### MTV : 개발 규칙
+### MTV (Model, Template, View) : 개발 규칙
 
 - MODEL : 데이터의 표현
 
   - 역할 : 명세 +관리 (CRUD)
 
-- Web Service의 목적
-  - 사용자가 Data를 관리
-- ORM : 프로그래밍 언어를 SQL 언어로 변환
+- Template : 결과물을 화면으로 봐야 할 때 작성
+
+  - Django의 DTL(Django Template Language)를 이용해 간단한 파이썬 문법과 View에서 전달 받은 값을 사용자에게 보여줄 수 있다.
 
   - (Object Relational Mapping)
 
 - View : Controller
   - 역할 : 요청처리 & 결과 반환 (응답 :response )
+
+Web Service의 목적
+
+- 사용자가 Data를 관리
+
+ORM : 프로그래밍 언어를 SQL 언어로 변환
 
 ### Response 종류
 
