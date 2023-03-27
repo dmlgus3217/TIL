@@ -118,3 +118,57 @@ _hash 알고리즘을 통해 암호화 (비밀번호 등)_
    - 이 데이터를 이용해서 어떻게 구현할 지
 
 - 위 내용을 반복
+
+#### Upcasting
+
+1. 목적
+2. Upcasting 목적 파악
+
+| = or
+입력이 된다는 개념으로 암기
+
+- get_context_data : clss(주어)에서 다뤄줄 데이터를 가져온다.
+  - context : 코드의 흐름 (문맥)
+
+Transaction : 데이터베이스에서 수행되는 작업의 단위
+
+commit : 작업반영
+rollback : 이전 작업으로 돌리기
+
+#### 데코레이터 : 메인 목적을 (관점으로 두고 ) 꾸며주는 것
+
+```
+def foo()
+goo = foo()
+```
+
+#### wrapper
+
+```
+def is_authorized(callback)
+  def wrapper(*args **kwargs)
+```
+
+**wrapper** 는 메인문 로직이 시작되어야 동작
+
+#### REST 란? Representational State Transfer
+
+- State Transfer : 서버 -> 클라이언트
+
+#### 통신의 방법
+
+1. HTTP : 비 연결성 통신 (동기 통신)
+2. DATA :(JSON,XML) :비 동기 통신
+
+- 동기 통신의 특징
+
+  - 클라이언트가 서버에 전송 후 대기
+
+- 비 동기 통신의 특징
+  - 클라이언트가 서버에 전송 후 지속 연결 (대기 X)
+
+CSR (Client Side Rendering)
+SSR (Server Side Rendering)
+
+- Serializer: 직렬화 (컴퓨터가 보기 쉬운 상태로 만드는것)
+- deserialization :역직렬화 (사람이 보기 쉬운 상태로 만드는것)
